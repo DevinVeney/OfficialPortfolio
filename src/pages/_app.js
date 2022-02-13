@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Devin Veney - Next.js Dev</title>
+        <title>Devin Veney - Web Dev</title>
       </Head>
       <Theme>
         <Component {...pageProps} />

@@ -14,16 +14,16 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hey there,
+          Greetings,
         </SectionTitle>
         <SectionText>
-          I am a Full Stack Software Developer who specializes in building clean
-          and aesthetically pleasing web applications.{' '}
+          I am a Full Stack Web Developer who specializes in building clean and
+          aesthetically pleasing web applications.{' '}
         </SectionText>
         <Button
           onClick={(e) => {
             e.preventDefault();
-            window.location.href = '/files/resume.pdf';
+            window.location.href = '/files/Full Stack Developer resume.pdf';
           }}
         >
           My Resume
