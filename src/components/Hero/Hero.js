@@ -17,7 +17,8 @@ const Hero = (props) => (
           Hey there,
         </SectionTitle>
         <SectionText>
-          Greetings, This is Devin Veney. I am a Next.JS Front-End Developer.{' '}
+          I am a Full Stack Software Developer who specializes in building clean
+          and aesthetically pleasing web applications.{' '}
         </SectionText>
         <Button
           onClick={(e) => {
