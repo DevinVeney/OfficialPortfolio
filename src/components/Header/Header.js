@@ -20,7 +20,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-          <img src="/hikariscript SVG file.svg" height={40} width={40} />{' '}
+          <img src="/CT3gWg01.svg" height={40} width={40} />{' '}
           <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
             Devin Veney
           </span>
