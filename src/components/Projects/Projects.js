@@ -44,18 +44,17 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks>
-                {' '}
-                <a href={p.visit} target="_blank">
-                  Live Preview
-                </a>
-              </ExternalLinks>
-              <ExternalLinks>
-                {' '}
-                <a href={p.source} target="_blank">
-                  Source Code
-                </a>
-              </ExternalLinks>
+              <div>
+                <ExternalLinks>
+                  Live Preview <a href={p.visit} target="_blank"></a>
+                </ExternalLinks>
+              </div>
+
+              <div>
+                <ExternalLinks>
+                  Source Code <a href={p.source} target="_blank"></a>
+                </ExternalLinks>
+              </div>
             </UtilityList>
           </BlogCard>
         );
