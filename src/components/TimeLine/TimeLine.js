@@ -5,7 +5,7 @@ import {
   SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
+import TimeLineData from '../../constants/constants';
 
 const Timeline = () => {
   const [setActiveItem] = useState(0);
