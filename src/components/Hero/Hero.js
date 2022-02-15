@@ -23,7 +23,7 @@ const Hero = (props) => (
         <Button
           onClick={(e) => {
             e.preventDefault();
-            window.location.href = '/files/Full Stack Developer resume.pdf';
+            window.open('/files/', '_blank');
           }}
         >
           My Resume

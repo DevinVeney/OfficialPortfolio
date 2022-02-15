@@ -1,42 +1,48 @@
-import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
+import {
+  DiReact,
+  DiTerminal,
+  DiNodejsSmall,
+  DiJavascript1,
+} from 'react-icons/di';
+import { SiMongodb, SiGit, SiNextdotjs } from 'react-icons/si';
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>I work on ROMs, Kernels & Android Apps using Java.</>,
+    slug: 'React',
+    Component: DiReact,
+    title: 'React',
+    Description: () => <>My go to library I use when develping applications.</>,
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Currently working with Dart & Flutter for app development. </>,
+    slug: 'nodejs',
+    Component: DiNodejsSmall,
+    title: 'Node.js',
+    Description: () => <>Very straightforward tool I use for every project. </>,
   },
   {
-    slug: "java",
-    Component: SiJava,
-    title: "Java",
-    Description: () => <>I can code in Java. But I mainly use it for Android app development.</>,
+    slug: 'javascript',
+    Component: DiJavascript1,
+    title: 'Javascript',
+    Description: () => <>Main language I use for functionality.</>,
   },
   {
-    slug: "terminal",
-    Component: DiTerminal,
-    title: "Scripting",
-    Description: () => <>I have written dozens of Shell scripts for various purposes.</>,
+    slug: 'nextdotjs',
+    Component: SiNextdotjs,
+    title: 'Next.js',
+    Description: () => <>My framework of choice.</>,
   },
   {
-    slug: "firebase",
-    Component: SiFirebase,
-    title: "Firebase",
-    Description: () => <>I have used Firebase for auth, database & analytics in my apps.</>,
+    slug: 'Mongodb',
+    Component: SiMongodb,
+    title: 'Mongodb',
+    Description: () => <>Most used database in my current stack. </>,
   },
   {
-    slug: "git",
+    slug: 'git',
     Component: SiGit,
-    title: "Git",
-    Description: () => <>Git is a tool that I use every day. I use GitHub for pushing my code.</>,
+    title: 'Git',
+    Description: () => (
+      <>Git is a tool that I use every day. I use GitHub for pushing my code.</>
+    ),
   },
 ];

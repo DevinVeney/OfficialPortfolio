@@ -1,25 +1,24 @@
 export const projects = [
   {
-    title: 'Covid-19 Status App',
+    title: 'Portfolio(Current)',
     description:
-      'COVID-19 Status is a free, open-source Android application that shows the current state of COVID-19 in India and the world. It has a beautiful, simple, fast, and responsive UI.',
-    image: '/images/covid.jpg',
-    tags: ['Java', 'XML', 'Firebase', 'Rest API'],
-    source: 'https://github.com/Coders-Of-XDA-OT/covid19-status-android',
-    visit: 'https://project.vipuljha.com/covid/',
+      'Currently the portfolio you see now. The overall direction used for this webpage was a modern set up that is easy to navigate.',
+    image: '/images/porfolio screenshot.png',
+    tags: ['HTML', 'CSS', 'Bootstrap', 'JQuery'],
+    source: 'https://github.com/DevinVeney/OfficialPortfolio',
+    visit: 'https://official-portfolio-rho.vercel.app/',
     id: 0,
   },
   {
-    title: 'Portfolio Website',
-    description:
-      'This was my personal portfolio website that has all my work and project experience, including my resume. It used to be my main portfolio before deploying this current portfolio.',
-    image: '/images/portfolio.jpg',
-    tags: ['HTML', 'CSS', 'Bootstrap', 'JQuery'],
-    source: 'https://github.com/lordarcadius/website',
-    visit: 'https://project.vipuljha.com/website/',
+    title: 'Wonder Shop e-commerce Site',
+    description: 'Sales site where users can purchase items from an inventory',
+    image: '/images/Screenshot 2022-02-14 215403.png',
+    tags: ['Mongodb', 'Javascript', 'Next.js'],
+    source: 'https://github.com/DevinVeney/Wonder-Shop',
+    visit: 'https://wonder-shop.vercel.app/',
     id: 1,
   },
-  {
+  /*{
     title: 'ABS Tweaks',
     description:
       'ABS Tweaks or Arkaynine Boost Script is a collection of shell scripts written with the aim of enhancing the performance and battery life of an Android phone. It got 2 Lac+ downloads overall.',
@@ -62,7 +61,7 @@ export const projects = [
     visit:
       'https://forum.xda-developers.com/t/c-apps-v2-unofficial-6-0-x-cyanogen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/',
     id: 3,
-  },
+  },*/
 ];
 
 /*export const TimeLineData = [
