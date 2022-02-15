@@ -44,17 +44,17 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <div>
-                <ExternalLinks>
-                  Live Preview <a href={p.visit} target="_blank"></a>
-                </ExternalLinks>
-              </div>
+              <ExternalLinks>
+                <a href={p.visit} target="_blank">
+                  Live Preview{' '}
+                </a>
+              </ExternalLinks>
 
-              <div>
-                <ExternalLinks>
-                  Source Code <a href={p.source} target="_blank"></a>
-                </ExternalLinks>
-              </div>
+              <ExternalLinks>
+                <a href={p.source} target="_blank">
+                  Source Code
+                </a>
+              </ExternalLinks>
             </UtilityList>
           </BlogCard>
         );
