@@ -18,17 +18,15 @@ export const projects = [
     visit: 'https://wonder-shop.vercel.app/',
     id: 1,
   },
-  /*{
-    title: 'ABS Tweaks',
-    description:
-      'ABS Tweaks or Arkaynine Boost Script is a collection of shell scripts written with the aim of enhancing the performance and battery life of an Android phone. It got 2 Lac+ downloads overall.',
-    image: '/images/abs.jpg',
-    tags: ['Shell', 'Busybox'],
-    source: 'https://github.com/lordarcadius/ABS-Tweaks',
-    visit:
-      'https://forum.xda-developers.com/t/tweak-mod-arm-x86-project-dark-booster-abs-tweaks-v5-0-2-3-6-0-23-01-2016.3120404/',
+  {
+    title: 'Kari App',
+    description: 'Landing page for sample phone application',
+    image: '/images/kari app landing page.png',
+    tags: ['PHP', 'Javascript', 'Node.js'],
+    source: 'https://github.com/DevinVeney/landing-page/tree/main',
+    visit: 'https://kariapp.000webhostapp.com/#',
     id: 2,
-  },
+  } /*
   {
     title: 'ElectraBlue Kernel',
     description:
@@ -61,7 +59,7 @@ export const projects = [
     visit:
       'https://forum.xda-developers.com/t/c-apps-v2-unofficial-6-0-x-cyanogen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/',
     id: 3,
-  },*/
+  },*/,
 ];
 
 /*export const TimeLineData = [
