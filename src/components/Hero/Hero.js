@@ -23,7 +23,7 @@ const Hero = (props) => (
         <Button
           onClick={(e) => {
             e.preventDefault();
-            window.open('/files/Devin Veney resume.pdf', '_blank');
+            window.open('/files/fullstackdev-resume3.pdf', '_blank');
           }}
         >
           My Resume
